@@ -35,7 +35,7 @@ This project is an automated gold price monitoring and email alert system. It fe
    source .venv/bin/activate
    pip install -r requirements.txt
 
-3. 配置邮箱和阈值（修改 `config_LOCAL.py`）：
+3. 配置邮箱和阈值（修改 `config.py`）：
    - 收件邮箱列表
    - 发件邮箱 SMTP、授权码
    - 价格提醒阈值 TARGET
@@ -48,7 +48,7 @@ This project is an automated gold price monitoring and email alert system. It fe
 To run:
 1. Clone this repo and enter the project folder
 2. Create venv, install requirements
-3. Modify `config_LOCAL.py` with your email + price threshold
+3. Modify `config.py` with your email + price threshold
 4. Run `python gold_price_alert/main.py`
 
 其他（Others）
